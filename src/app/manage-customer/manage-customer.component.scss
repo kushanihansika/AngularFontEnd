@@ -1,0 +1,28 @@
+h2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+table tfoot{
+  text-align: center;
+}
+
+form p button{
+  margin: 5px
+}
+
+table tbody{
+  cursor: pointer;
+
+  td:last-child:hover{
+    color: #ff7976;
+  }
+}
+
+.selected{
+  background-color: lightgray;
+}
+
+.ng-invalid:not(form){
+  border: 1px solid #ff4c27;
+}
